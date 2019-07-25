@@ -3,6 +3,12 @@ title: Use Multiple Conditional (Ternary) Operators
 ---
 ## Use Multiple Conditional (Ternary) Operators
 
+function checkSign(num) {
+    return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
+}
+
+checkSign(10);
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
